@@ -1,0 +1,30 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fbbf23;
+  padding: 1em;
+  h1 {
+    cursor: pointer;
+  }
+  .cart {
+    position: relative;
+    cursor: pointer;
+    .material-icons {
+      font-size: 2em;
+      margin-left: -2em;
+    }
+
+    &__count {
+      position: absolute;
+      background: red;
+      color: white;
+      padding: 5px;
+      border-radius: 50%;
+      font-weight: bold;
+      top: -11px;
+      width: 15px;
+      text-align: center;
+    }
+  }
+}
