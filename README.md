@@ -94,6 +94,11 @@ y por último agrega el atributo **allowSyntheticDefaultImports** en el tsconfig
 }
 ```
 
+# CARGA DINAMICA
+
+Para realizar la carga dinamica de MF debes de seguir el video tutorial en mi canal.
+
+
 **Suscríbete a mi canal** 😎
 
 https://www.youtube.com/c/LogiDev

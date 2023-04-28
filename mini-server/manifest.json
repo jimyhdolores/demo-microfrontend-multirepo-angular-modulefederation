@@ -1,0 +1,17 @@
+{
+    "products": {
+        "remoteEntry": "http://localhost:4201/remoteEntry.js",
+        "exposedModule": "./ProductsModule",
+        "routePath": "",
+        "ngModuleName": "ProductsModule",
+        "isStandalone":false
+    },
+    "payment": {
+        "remoteEntry": "http://localhost:4202/remoteEntry.js",
+
+        "exposedModule": "./PaymentComponent",
+        "routePath": "payment",
+        "ngModuleName": "PaymentComponent",
+        "isStandalone":true
+    }
+}
